@@ -1,6 +1,6 @@
 package Model;
 
-public class Person {
+public class User {
 	private String name; // person's name
 	private String surname; //person's surname
 	private String email;// person's email
@@ -8,7 +8,7 @@ public class Person {
 	private String birthDate;// person's birthdate
 	
 	//Constructor
-	public Person(String name, String surname, String email, String phone, String birthDate) {
+	public User(String name, String surname, String email, String phone, String birthDate) {
 		super();
 		this.name = name;
 		this.surname = surname;
